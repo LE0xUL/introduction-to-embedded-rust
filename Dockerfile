@@ -81,7 +81,7 @@ RUN cargo install \
     flip-link \
     elf2uf2-rs \
     rustlings@${RUSTLINGS_VERSION} \
-    mdbook
+    mdbook@0.4.52
 
 # Install linting, formatting, and inspection tools
 RUN rustup component add \
